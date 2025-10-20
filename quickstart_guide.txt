@@ -1,0 +1,29 @@
+
+========================================
+🧠 AgentX Stock Trader - Quick Start Guide
+========================================
+
+1️⃣ SETUP
+----------------------------------------
+> python -m venv venv
+> source venv/bin/activate   (Mac/Linux)
+> venv\Scripts\activate     (Windows)
+> pip install -r requirements.txt
+
+Copy .env.example to .env and fill in your keys.
+
+2️⃣ RUN LOCALLY (MOCK MODE)
+----------------------------------------
+> python run_agentx_workflow.py
+
+This uses mock_agentx_orchestrator.py to simulate
+AgentX behavior and print a recommendation (BUY / SELL / HOLD).
+
+3️⃣ DEPLOY ON AGENTX
+----------------------------------------
+Replace /agentx folder with real AgentX SDK or 
+deploy this repository directly through AgentX Web UI.
+Your workflow JSON will be automatically recognized.
+
+✅ That’s it!
+Trade smarter, with AI-powered market insights.
