@@ -65,12 +65,21 @@ agentx-stock-trader-agentx-ready/
 
 ---
 
-## Requirements
+
+## ⚙️ Setup & Installation
+
+### Requirements
 
 - Python 3.10+  
 - Required packages (install via pip):
 
 ```bash
+git clone https://github.com/<your-username>/agentx-stock-trader.git
+cd agentx-stock-trader
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
 pip install pandas requests kiteconnect yfinance transformers torch
 ```
 
@@ -80,21 +89,7 @@ pip install pandas requests kiteconnect yfinance transformers torch
   - `KITE_API_KEY` / `KITE_ACCESS_TOKEN` → for live trading  
   - `NEWSAPI_KEY` → optional, for richer sentiment analysis  
 
----
-
-
-## ⚙️ Setup & Installation
-
-```bash
-git clone https://github.com/<your-username>/agentx-stock-trader.git
-cd agentx-stock-trader
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate     # Windows
-pip install -r requirements.txt
-```
-
-Copy `.env.example` to `.env` and add your keys.
+- Copy `.env.example` to `.env` and add your keys.
 
 Run the workflow locally (mock mode):
 ```bash
