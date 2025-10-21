@@ -29,7 +29,6 @@ It uses **financial APIs**, **NewsAPI**, and **LLM-based reasoning** to generate
 ---
 
 ### 🧩 Architecture
-*(Insert diagram here)*  
 `![Architecture Diagram](docs/agentx_stock_trader_architecture.png)`
 
 ---
